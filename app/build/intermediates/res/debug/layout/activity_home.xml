@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.arvind.morsecret.Home"
+    android:id="@+id/tp"
+    android:background="@drawable/homeactivity">
+
+    <TextView android:text="We created this app for our APCS final project. The aim of it is to make Morse Code more available to a wider array of people. We hope you enjoy! For more information, visit:                                                                              http://morsecretapp.blogspot.com "
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:id="@+id/hometext"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="190dp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Shannon/Desktop/MorSecret/app/src/main/res/layout/activity_home.xml -->
